@@ -2,15 +2,15 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Input } from "components/ui/input";
+import { Button } from "components/ui/button";
 import {
   Card,
   CardHeader,
   CardTitle,
   CardDescription,
   CardContent,
-} from "@/components/ui/card";
+} from "components/ui/card";
 import { WeatherData, ForecastData } from "./types/weather";
 
 // Define your API key
